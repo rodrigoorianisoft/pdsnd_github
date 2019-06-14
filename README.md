@@ -11,4 +11,5 @@ Information about a bike share system provider for many major cities in the Unit
 bikeshare.py
 
 ### Credits
+Udacity: https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
 Motivate: https://www.motivateco.com/
