@@ -56,7 +56,7 @@ def to_json(d):
 
 def get_input_as_int(input_text, min, max):
     '''
-    To validate the input values (all inout options must be an int value)
+    To validate the input values (all input options must be an int value)
 
     Return an int value between min and max parameters
     '''
