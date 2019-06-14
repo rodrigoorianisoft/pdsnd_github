@@ -56,7 +56,7 @@ def to_json(d):
 
 def get_input_as_int(input_text, min, max):
     '''
-    To validate the input values (all inout options must be an int value)
+    To validate the input values (all input options must be an int value)
 
     Return an int value between min and max parameters
     '''
@@ -256,15 +256,15 @@ def user_stats(df):
 
 def top_raw_data(df, n):
     i = 0
+
+    rows = df.shape[0]
+
     while True:
         question = input('\nWould you like to see then next {} lines of raw data? Enter "q" to quit: '.format(n))
         if question.lower() == 'q':
             break
 
         paged_df = df.iloc[i : i+n]
-
-        if i == 0:
-            rows = df.shape[0]
 
         if paged_df.size != 0:
             print(paged_df)
